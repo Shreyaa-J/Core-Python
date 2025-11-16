@@ -1,0 +1,13 @@
+def countdigit(n,count):
+    if n<=0:
+       return count
+    n=n//10
+    count +=1
+    return countdigit(n,count)
+
+ num=int(input("Enter Number : "))
+ res=countdigits(num,0)
+ print(f"The count of digit in {num} is : {res}")     
+
+      
+      
