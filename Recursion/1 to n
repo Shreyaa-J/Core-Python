@@ -1,0 +1,9 @@
+def dispnum(n):
+  if n<1:
+     return
+  dispnum(n-1)
+  print(n,end="")
+  
+n=int(input("Enter num : "))
+dispnum(n)
+  
