@@ -8,4 +8,4 @@ def reversal(n,rev):
 
 num=int(input("Enter Number : "))
 res=reversal(num,0)
-print(f"The reversal of {num} is : {rev}")
+print(f"The reversal of {num} is : {res}")
