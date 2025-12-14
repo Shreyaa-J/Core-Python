@@ -5,6 +5,6 @@ num=int(input("Enter number : "))
 flag=isEvenOdd(num)
 
 if flag:
-    print(f"{num} is even number")
+    print(f"{num} is even Num")
 else:
     print(f"{num} is odd number")    
